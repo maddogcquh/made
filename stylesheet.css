@@ -1,0 +1,16 @@
+body {
+  color: #f38989;
+
+  background: "https://shopvinyldesign.com/cdn/shop/products/shopvinyldesignstor11                e-com-man-fishing-from-boat-for-bass-fish-wide-shop-vinyl-design-decals-stickers-diy-37105601446138.png?v=1651808406&width=1946"
+    alt= "Image 1";
+}
+.dark-mode {
+  background-color: #ffa500;
+  color: #ffa500;
+}
+
+.img {
+  flex: 1; /* This will make all the images take equal width */
+  object-fit: cover; /* This will make sure the images maintain their proportions */
+  margin: 5px; /* This will add some spacing between the images */
+}

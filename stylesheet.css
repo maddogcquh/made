@@ -1,7 +1,7 @@
 body {
   color: #f38989;
 }
-  .topnav {
+.topnav {
   background-color: #333;
   overflow: hidden;
 }
@@ -23,16 +23,57 @@ body {
 }
 
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color: #04aa6d;
   color: white;
 }
 
 .topnav .icon {
   display: none;
 }
-  background: "https://shopvinyldesign.com/cdn/shop/products/shopvinyldesignstor11                e-com-man-fishing-from-boat-for-bass-fish-wide-shop-vinyl-design-decals-stickers-diy-37105601446138.png?v=1651808406&width=1946"
-    alt= "Image 1";
+
+.dark-mode {
+  background-color: #ffa500;
+  color: #ffa500;
 }
+
+.img {
+  flex: 1; /* This will make all the images take equal width */
+  object-fit: cover; /* This will make sure the images maintain their proportions */
+  margin: 5px; /* This will add some spacing between the images */
+}
+body {
+  color: #f38989;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
 .dark-mode {
   background-color: #000000;
   color: #ffffff;
